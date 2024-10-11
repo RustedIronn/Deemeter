@@ -57,7 +57,7 @@ class Header extends Component {
     return (
       <div>
         <AppBar
-          title={'GoEat'}
+          title={'Demeter'}
           onLeftIconButtonTouchTap={this.handleToggle}
           iconElementRight={isInitialized ?
             <BmrOptions {...this.props}
